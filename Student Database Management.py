@@ -2,7 +2,7 @@ import mysql.connector
 
 from tabulate import tabulate
 
-mydb = mysql.connector.connect(host="localhost",user="root",password="gokul@cse1234567",database="gokul")
+mydb = mysql.connector.connect(host="localhost",user="root",database="gokul")
 
 c = mydb.cursor()
 
